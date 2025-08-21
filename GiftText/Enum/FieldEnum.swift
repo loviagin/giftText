@@ -8,5 +8,5 @@
 import Foundation
 
 enum Field {
-    case name, typeEvent, style, gender
+    case name, typeEvent, style, gender, context, chat
 }

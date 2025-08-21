@@ -20,16 +20,19 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+                .tag(AppTab.home)
             
-            HomeView()
+            ChatsView()
                 .tabItem {
-                    Label("History", systemImage: "clock")
+                    Label("Chats", systemImage: "clock")
                 }
+                .tag(AppTab.history)
             
-            HomeView()
+            AccountView()
                 .tabItem {
                     Label("Account", systemImage: "person")
                 }
+                .tag(AppTab.account)
         }
         .onAppear {
             fetchUser()
@@ -38,6 +41,7 @@ struct ContentView: View {
     
     func fetchUser() {
         guard let newUser = viewModel.findUser(users) else {
+//            users[0].name = nil
             return
         }
         

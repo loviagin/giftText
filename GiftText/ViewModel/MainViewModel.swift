@@ -6,10 +6,12 @@
 //
 
 import Foundation
+import SwiftUI
 
 class MainViewModel: ObservableObject {
-    @Published var selectedTab: AppTab = .home
+    @Published var selectedTab: AppTab = .account
     @Published var user: User? = nil
+    @Published var newGift: Gift? = nil
     @Published var typeGift: [String] = [
         NSLocalizedString("Birthday", comment: "Type Gift"),
         NSLocalizedString("Wedding", comment: "Type Gift"),
@@ -18,6 +20,95 @@ class MainViewModel: ObservableObject {
         NSLocalizedString("Baby's birth", comment: "Type Gift"),
         NSLocalizedString("Anniversary", comment: "Type Gift")
     ]
+    
+    func checkDonationAllowance() async -> Bool {
+        let url = "https://gt.nqstx.xyz/donate"
+        
+        var request = URLRequest(url: URL(string: url)!)
+        request.httpMethod = "GET"
+        
+        do {
+            let (data, _) = try await URLSession.shared.data(for: request)
+            //decode as DonateDTO
+            let donateDTO: DonateDTO = try JSONDecoder().decode(DonateDTO.self, from: data)
+            return donateDTO.allowed
+        } catch {
+            print(error)
+            return false
+        }
+    }
+    
+    func checkLimitsForRegenerate(_ id: String) -> Bool {
+        guard let u = user else {
+            return false
+        }
+        
+        let today = Calendar.current.startOfDay(for: Date())
+        
+        if let todayUsage = u.usages[today],
+           let textUsed = todayUsage["\(id)"] {
+            print("textRegenerateUsed: \(textUsed) - \(textUsed < 3)")
+            return textUsed <= 3
+        } else {
+            return true
+        }
+    }
+    
+    func setLimitForRegenerate(_ id: String) {
+        guard let u = user else {
+            return
+        }
+        
+        let today = Calendar.current.startOfDay(for: Date())
+        
+        if let todayUsage = u.usages[today],
+           let textUsed = todayUsage["textUsed"] {
+            print("textRegenerateUsed: \(textUsed) - \(textUsed + 1)")
+            user?.usages[today] = ["\(id)": textUsed + 1]
+        } else {
+            user?.usages[today] = ["\(id)": 1]
+        }
+    }
+    
+    func checkLimitsForText() -> Bool {
+        guard let u = user else {
+            return false
+        }
+        
+        let today = Calendar.current.startOfDay(for: Date())
+        
+        if let todayUsage = u.usages[today],
+           let textUsed = todayUsage["textUsed"] {
+            print("textUsed: \(textUsed) - \(textUsed < 10)")
+            return textUsed < 10
+        } else {
+            return true
+        }
+    }
+    
+    func setLimitForText() {
+        guard let u = user else {
+            return
+        }
+        
+        let today = Calendar.current.startOfDay(for: Date())
+        
+        if let todayUsage = u.usages[today],
+           let textUsed = todayUsage["textUsed"] {
+            print("textUsed: \(textUsed) - \(textUsed + 1)")
+            user?.usages[today] = ["textUsed": textUsed + 1]
+        } else {
+            user?.usages[today] = ["textUsed": 1]
+        }
+    }
+    
+    func checkLimitsForImage() -> Bool {
+        return !UserDefaults.standard.bool(forKey: "imageUsed")
+    }
+    
+    func setLimitForImage() {
+        UserDefaults.standard.set(true, forKey: "imageUsed")
+    }
     
     func findUser(_ users: [User]) -> User? {
         if let user = users.first {
@@ -34,6 +125,20 @@ class MainViewModel: ObservableObject {
             
             return newUser
         }
+    }
+    
+    func imageFromBase64(_ base64: String) -> UIImage? {
+        // Если пришло как data URL — обрежем префикс
+        let cleaned = base64.replacingOccurrences(of: #"^data:image/[^;]+;base64,"#,
+                                                  with: "",
+                                                  options: .regularExpression)
+
+        guard let data = Data(base64Encoded: cleaned, options: .ignoreUnknownCharacters) else {
+            return nil
+        }
+
+        guard let uiImage = UIImage(data: data) else { return nil }
+        return uiImage
     }
 }
 

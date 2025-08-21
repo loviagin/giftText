@@ -11,14 +11,14 @@ import SwiftData
 @Model
 class User {
     var id: String = UUID().uuidString
-    var name: String = ""
+    var name: String? = nil
     
     var subscription: Date? = nil
-    var usages: [Date: Int] = [:]
+    var usages: [Date: [String: Int]] = [:]
     
     var registered: Date = Date()
     
-    init(id: String, name: String, subscription: Date? = nil, usages: [Date : Int], registered: Date) {
+    init(id: String, name: String, subscription: Date? = nil, usages: [Date: [String: Int]], registered: Date) {
         self.id = id
         self.name = name
         self.subscription = subscription
