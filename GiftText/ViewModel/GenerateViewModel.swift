@@ -83,11 +83,9 @@ class GenerateViewModel: ObservableObject {
         }
     }
     
-    func generateImage(completion: @escaping (String?) -> Void) async {
-        guard let prompt = self.prompt else { return }
-        
+    func generateImage(type: String, completion: @escaping (String?) -> Void) async {        
         do {
-            let result = try await self.fetchImagen(prompt: prompt)
+            let result = try await self.fetchImagen(prompt: type)
             completion(result)
         } catch {
             print(error)
@@ -103,8 +101,10 @@ class GenerateViewModel: ObservableObject {
         if let authToken { req.addValue("Bearer \(authToken)", forHTTPHeaderField: "Authorization") }
 
         struct Payload: Encodable { let prompt: String }
-        req.httpBody = try JSONEncoder().encode(Payload(prompt: prompt))
+        let text = NSLocalizedString("Generate a \(prompt) picture. Without text. Just picture. Do not include any words, text, captions, or typography on the image. The image should be purely visual, like a greeting card background with decorations (balloons, cake, gifts, confetti). No text is allowed anywhere in the picture.", comment: "Generator")
+        req.httpBody = try JSONEncoder().encode(Payload(prompt: text))
 
+        print("PROMPT: \(text)")
         let (data, resp) = try await session.data(for: req)
         guard let http = resp as? HTTPURLResponse else { throw APIError.emptyBody }
         guard (200..<300).contains(http.statusCode) else {

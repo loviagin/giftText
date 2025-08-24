@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		86CF5F382E5B533900063238 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 86CF5F372E5B533900063238 /* RevenueCat */; };
+		86CF5F3A2E5B533900063238 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 86CF5F392E5B533900063238 /* RevenueCatUI */; };
+		86CF5F3D2E5B535100063238 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF5F3C2E5B535100063238 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		86CF5F3C2E5B535100063238 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		86E14E242E4D1CDE0018A077 /* GiftText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,16 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CF5F3D2E5B535100063238 /* StoreKit.framework in Frameworks */,
+				86CF5F3A2E5B533900063238 /* RevenueCatUI in Frameworks */,
+				86CF5F382E5B533900063238 /* RevenueCat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86CF5F3B2E5B535100063238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86CF5F3C2E5B535100063238 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86E14E1B2E4D1CDE0018A077 = {
 			isa = PBXGroup;
 			children = (
 				86E14E262E4D1CDE0018A077 /* GiftText */,
+				86CF5F3B2E5B535100063238 /* Frameworks */,
 				86E14E252E4D1CDE0018A077 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +97,8 @@
 			);
 			name = GiftText;
 			packageProductDependencies = (
+				86CF5F372E5B533900063238 /* RevenueCat */,
+				86CF5F392E5B533900063238 /* RevenueCatUI */,
 			);
 			productName = GiftText;
 			productReference = 86E14E242E4D1CDE0018A077 /* GiftText.app */;
@@ -107,6 +128,9 @@
 			);
 			mainGroup = 86E14E1B2E4D1CDE0018A077;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				86CF5F362E5B533900063238 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 86E14E252E4D1CDE0018A077 /* Products */;
 			projectDirPath = "";
@@ -266,7 +290,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GiftText/GiftText.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ATYMLFZUQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovigin.GiftText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -304,7 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GiftText/GiftText.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ATYMLFZUQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovigin.GiftText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -357,6 +382,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86CF5F362E5B533900063238 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.35.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86CF5F372E5B533900063238 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86CF5F362E5B533900063238 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		86CF5F392E5B533900063238 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86CF5F362E5B533900063238 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86E14E1C2E4D1CDE0018A077 /* Project object */;
 }

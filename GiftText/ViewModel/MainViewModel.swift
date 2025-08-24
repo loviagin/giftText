@@ -7,10 +7,13 @@
 
 import Foundation
 import SwiftUI
+import RevenueCat
 
+@MainActor
 class MainViewModel: ObservableObject {
-    @Published var selectedTab: AppTab = .account
+    @Published var selectedTab: AppTab = .home
     @Published var user: User? = nil
+    @Published var subscribed = false
     @Published var newGift: Gift? = nil
     @Published var typeGift: [String] = [
         NSLocalizedString("Birthday", comment: "Type Gift"),
@@ -20,6 +23,31 @@ class MainViewModel: ObservableObject {
         NSLocalizedString("Baby's birth", comment: "Type Gift"),
         NSLocalizedString("Anniversary", comment: "Type Gift")
     ]
+    
+    init() {
+        DispatchQueue.main.async {
+            Task {
+                self.subscribed = await self.checkSubscription()
+            }
+        }
+    }
+    
+    func checkSubscription() async -> Bool {
+        do {
+            let customerInfo = try await Purchases.shared.customerInfo()
+            if customerInfo.entitlements["Unlimited Generation"]?.isActive == true {
+              // user has access to "Unlimited Generation"
+                return true
+            } else {
+                return false
+            }
+        } catch {
+            print(error)
+        }
+        
+        print(subscribed)
+        return false
+    }
     
     func checkDonationAllowance() async -> Bool {
         let url = "https://gt.nqstx.xyz/donate"
@@ -43,6 +71,10 @@ class MainViewModel: ObservableObject {
             return false
         }
         
+        guard !subscribed else {
+            return true
+        }
+        
         let today = Calendar.current.startOfDay(for: Date())
         
         if let todayUsage = u.usages[today],
@@ -56,6 +88,10 @@ class MainViewModel: ObservableObject {
     
     func setLimitForRegenerate(_ id: String) {
         guard let u = user else {
+            return
+        }
+        
+        guard !subscribed else {
             return
         }
         
@@ -75,6 +111,10 @@ class MainViewModel: ObservableObject {
             return false
         }
         
+        guard !subscribed else {
+            return true
+        }
+        
         let today = Calendar.current.startOfDay(for: Date())
         
         if let todayUsage = u.usages[today],
@@ -91,6 +131,10 @@ class MainViewModel: ObservableObject {
             return
         }
         
+        guard !subscribed else {
+            return
+        }
+        
         let today = Calendar.current.startOfDay(for: Date())
         
         if let todayUsage = u.usages[today],
@@ -103,10 +147,18 @@ class MainViewModel: ObservableObject {
     }
     
     func checkLimitsForImage() -> Bool {
+        guard !subscribed else {
+            return true
+        }
+        
         return !UserDefaults.standard.bool(forKey: "imageUsed")
     }
     
     func setLimitForImage() {
+        guard !subscribed else {
+            return
+        }
+        
         UserDefaults.standard.set(true, forKey: "imageUsed")
     }
     

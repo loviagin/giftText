@@ -7,6 +7,8 @@
 
 import SwiftUI
 import SwiftData
+import RevenueCat
+import RevenueCatUI
 
 struct AccountView: View {
     @Environment(\.modelContext) private var context
@@ -16,22 +18,31 @@ struct AccountView: View {
     @FocusState private var focused: Field?
     @State private var isEditing = false
     @State private var name = ""
+    @State private var showSubscription = false
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 userInfoView
                 
-//                NavigationLink {
-//                    PrivacyView()
-//                } label: {
-//                    HStack {
-//                        Label("Gift Text Subscription", systemImage: "arrow.up.message")
-//                        Spacer()
-//                        Image(systemName: "storefront")
-//                    }
-//                }
-//                .padding()
+                Button {
+                    if !viewModel.subscribed {
+                        withAnimation {
+                            showSubscription = true
+                        }
+                    }
+                } label: {
+                    HStack {
+                        if viewModel.subscribed {
+                            Label("You have a Gift Text Subscription", systemImage: "checkmark.circle")
+                        } else {
+                            Label("Gift Text Subscription", systemImage: "arrow.up.message")
+                        }
+                        Spacer()
+                        Image(systemName: "storefront")
+                    }
+                }
+                .padding()
                 
                 VStack(alignment: .leading, spacing: 15) {
                     NavigationLink {
@@ -90,6 +101,15 @@ struct AccountView: View {
                         }
                     }
                 }
+            }
+            .sheet(isPresented: self.$showSubscription, onDismiss: {
+                DispatchQueue.main.async {
+                    Task {
+                        viewModel.subscribed = await viewModel.checkSubscription()
+                    }
+                }
+            }) {
+                PaywallView()
             }
         }
     }

@@ -7,6 +7,8 @@
 
 import SwiftUI
 import SwiftData
+import RevenueCat
+import RevenueCatUI
 
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
@@ -41,6 +43,7 @@ struct HomeView: View {
     @State private var errorMessage: String? = nil
     @State private var giftText: String? = nil
     @State private var showNameAlert = false
+    @State private var showSubscription = false
     @State private var myName = ""
     @State private var chatId = ""
     
@@ -115,6 +118,15 @@ struct HomeView: View {
                 }
             }
         }
+        .sheet(isPresented: self.$showSubscription, onDismiss: {
+            DispatchQueue.main.async {
+                Task {
+                    viewModel.subscribed = await viewModel.checkSubscription()
+                }
+            }
+        }) {
+            PaywallView()
+        }
     }
     
     func alertAction() {
@@ -123,6 +135,9 @@ struct HomeView: View {
         if viewModel.checkLimitsForText() {
             generateText()
         } else {
+            withAnimation {
+                showSubscription = true
+            }
             errorMessage = NSLocalizedString("You have reached the limit of text gifts", comment: "Home View")
         }
     }
@@ -131,6 +146,9 @@ struct HomeView: View {
         self.errorMessage = nil
         
         guard viewModel.checkLimitsForImage() else {
+            withAnimation {
+                showSubscription = true
+            }
             DispatchQueue.main.async {
                 self.errorMessage = NSLocalizedString("You have reached the limit of images per day", comment: "Home View")
             }
@@ -142,7 +160,7 @@ struct HomeView: View {
         }
         
         Task {
-            await generator.generateImage() { result in // result is base64Encoded Image
+            await generator.generateImage(type: typeEvent) { result in // result is base64Encoded Image
                 guard let result else {
                     print("error result")
                     withAnimation {
@@ -292,6 +310,9 @@ struct HomeView: View {
     
     func regenerateText() {
         guard viewModel.checkLimitsForRegenerate(chatId) else {
+            withAnimation {
+                showSubscription = true
+            }
             errorMessage = NSLocalizedString("You have reached the limit of text regeneration per day", comment: "Home View")
             return
         }
@@ -422,6 +443,7 @@ struct HomeView: View {
                 .font(.title2)
                 .bold()
                 .padding()
+                .padding(.top, 15)
         }
     }
     
@@ -644,6 +666,14 @@ struct HomeView: View {
                     .bold()
                 
                 Spacer()
+                
+                if viewModel.subscribed {
+                    Text("PRO")
+                        .padding(10)
+                        .foregroundStyle(.white)
+                        .background(.black.opacity(0.8))
+                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                }
             }
             .padding(.horizontal)
             .padding(.top, 10)
