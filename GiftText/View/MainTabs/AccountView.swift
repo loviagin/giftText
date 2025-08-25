@@ -19,89 +19,70 @@ struct AccountView: View {
     @State private var isEditing = false
     @State private var name = ""
     @State private var showSubscription = false
+    @State private var showEdit = false
     
     var body: some View {
         NavigationStack {
-            ScrollView {
-                userInfoView
+            Form {
+                Section {
+                    userInfoView
+                }
                 
-                Button {
-                    if !viewModel.subscribed {
-                        withAnimation {
-                            showSubscription = true
+                Section {
+                    Button {
+                        if !viewModel.subscribed {
+                            withAnimation {
+                                showSubscription = true
+                            }
                         }
-                    }
-                } label: {
-                    HStack {
-                        if viewModel.subscribed {
-                            Label("You have a Gift Text Subscription", systemImage: "checkmark.circle")
-                        } else {
-                            Label("Gift Text Subscription", systemImage: "arrow.up.message")
+                    } label: {
+                        HStack {
+                            if viewModel.subscribed {
+                                Label("You have a Gift Text Subscription", systemImage: "checkmark.circle")
+                            } else {
+                                Label("Gift Text Subscription", systemImage: "arrow.up.message")
+                            }
+                            Spacer()
+                            Image(systemName: "storefront")
                         }
-                        Spacer()
-                        Image(systemName: "storefront")
                     }
                 }
-                .padding()
                 
-                VStack(alignment: .leading, spacing: 15) {
+                Section {
                     NavigationLink {
                         PrivacyView()
                     } label: {
-                        HStack {
-                            Label("Privacy settings", systemImage: "gear")
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                        }
+                        Label("Privacy settings", systemImage: "gear")
                     }
-
-                    Divider()
                     
                     NavigationLink {
                         PoliciesView()
                     } label: {
-                        HStack {
-                            Label("Policies", systemImage: "hand.raised.circle")
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                        }
+                        Label("Policies", systemImage: "hand.raised.circle")
                     }
-                    
-                    Divider()
                     
                     NavigationLink {
                         AboutAppView()
                     } label: {
-                        HStack {
-                            Label("About App", systemImage: "info.circle")
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                        }
+                        Label("About App", systemImage: "info.circle")
                     }
                 }
-                .padding()
-                .foregroundStyle(.dark)
             }
             .onAppear {
                 fetchUser()
             }
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button("Edit") {
-                        withAnimation {
-                            isEditing.toggle()
-                        }
-                    }
+            .alert("Edit Profile", isPresented: $showEdit, actions: {
+                TextField("Enter your name", text: $name)
+                Button("Cancel") {
+                    name = viewModel.user?.name ?? ""
+                    showEdit = false
                 }
-                
-                if isEditing {
-                    ToolbarItem(placement: .topBarTrailing) {
-                        Button("Done") {
-                            save()
-                        }
-                    }
+                Button("Save") {
+                    save()
+                    showEdit = false
                 }
-            }
+                .bold()
+            })
             .sheet(isPresented: self.$showSubscription, onDismiss: {
                 DispatchQueue.main.async {
                     Task {
@@ -137,7 +118,7 @@ struct AccountView: View {
     }
     
     var userInfoView: some View {
-        VStack {
+        HStack {
             Image(systemName: "person.circle")
                 .resizable()
                 .scaledToFit()
@@ -145,18 +126,21 @@ struct AccountView: View {
                 .foregroundStyle(.gray)
             
             if let user = viewModel.user {
-                Group {
-                    if isEditing {
-                        FieldView(focused: $focused, focus: .name) {
-                            TextField("Enter your name", text: $name)
-                        }
-                    } else {
-                        Text(user.name ?? "No name")
-                    }
-                }
-                .padding(7)
-                .bold()
-                .font(.title2)
+                Text(user.name ?? "No name")
+                    .padding(7)
+                    .bold()
+                    .font(.title2)
+            }
+            
+            Spacer()
+            
+            Button {
+                showEdit = true
+            } label: {
+                Image(systemName: "pencil")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20)
             }
         }
     }

@@ -1,6 +1,24 @@
 {
-  "originHash" : "533de208f7207fdd36b99a2f0036707fca012c23defe0e4e99a820106aff336d",
+  "originHash" : "e07e9fbb7d4ec4437d011849def080b74db5d92627a68ecd4378a02d75dec9d3",
   "pins" : [
+    {
+      "identity" : "appmetrica-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/appmetrica/appmetrica-sdk-ios",
+      "state" : {
+        "revision" : "4d34ce36bc1fb1fb3a251255aedde3b1dc52e188",
+        "version" : "5.12.1"
+      }
+    },
+    {
+      "identity" : "kscrash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kstenerud/KSCrash",
+      "state" : {
+        "revision" : "c0177658fc771ae833b6d3b8f5f3f5a14d59ec03",
+        "version" : "2.1.2"
+      }
+    },
     {
       "identity" : "purchases-ios-spm",
       "kind" : "remoteSourceControl",

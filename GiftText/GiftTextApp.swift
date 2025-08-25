@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 import RevenueCat
+import AppMetricaCore
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
@@ -15,6 +16,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
         Purchases.logLevel = .debug
         Purchases.configure(withAPIKey: "appl_lTNKnYnsNiHmmOazPtlVQyQBFIq")
+        
+        let configuration = AppMetricaConfiguration(apiKey: "45891ccb-5948-4e81-909a-5aca2d193c0a")
+        AppMetrica.activate(with: configuration!)
         
         return true
     }

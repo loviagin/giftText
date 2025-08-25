@@ -11,12 +11,32 @@ struct AboutAppView: View {
     @EnvironmentObject private var viewModel: MainViewModel
     
     @State private var donationAllowed = false
+    @State private var showCopied = false
     
     var body: some View {
         Form {
             Section {
                 Text("Developer: LOVIGIN LTD")
                 Link(destination: URL(string: "https://lovigin.com")!, label: { Text("Official website") })
+                Button {
+                    UIPasteboard.general.string = "gifttext@lovigin.com"
+                    withAnimation {
+                        showCopied = true
+                    }
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        withAnimation {
+                            showCopied = false
+                        }
+                    }
+                } label: {
+                    Text("Email: gifttext@lovigin.com")
+                }
+                
+                if showCopied {
+                    Text("Copied")
+                        .foregroundStyle(.gray)
+                }
             }
             
             Section {

@@ -10,6 +10,8 @@
 		86CF5F382E5B533900063238 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 86CF5F372E5B533900063238 /* RevenueCat */; };
 		86CF5F3A2E5B533900063238 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 86CF5F392E5B533900063238 /* RevenueCatUI */; };
 		86CF5F3D2E5B535100063238 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF5F3C2E5B535100063238 /* StoreKit.framework */; };
+		86E30F2A2E5C6A78006BD4B7 /* AppMetricaCore in Frameworks */ = {isa = PBXBuildFile; productRef = 86E30F292E5C6A78006BD4B7 /* AppMetricaCore */; };
+		86E30F2C2E5C6A78006BD4B7 /* AppMetricaCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 86E30F2B2E5C6A78006BD4B7 /* AppMetricaCrashes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86CF5F3D2E5B535100063238 /* StoreKit.framework in Frameworks */,
+				86E30F2C2E5C6A78006BD4B7 /* AppMetricaCrashes in Frameworks */,
+				86E30F2A2E5C6A78006BD4B7 /* AppMetricaCore in Frameworks */,
 				86CF5F3A2E5B533900063238 /* RevenueCatUI in Frameworks */,
 				86CF5F382E5B533900063238 /* RevenueCat in Frameworks */,
 			);
@@ -99,6 +103,8 @@
 			packageProductDependencies = (
 				86CF5F372E5B533900063238 /* RevenueCat */,
 				86CF5F392E5B533900063238 /* RevenueCatUI */,
+				86E30F292E5C6A78006BD4B7 /* AppMetricaCore */,
+				86E30F2B2E5C6A78006BD4B7 /* AppMetricaCrashes */,
 			);
 			productName = GiftText;
 			productReference = 86E14E242E4D1CDE0018A077 /* GiftText.app */;
@@ -130,6 +136,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				86CF5F362E5B533900063238 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				86E30F282E5C6A78006BD4B7 /* XCRemoteSwiftPackageReference "appmetrica-sdk-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 86E14E252E4D1CDE0018A077 /* Products */;
@@ -290,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GiftText/GiftText.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ATYMLFZUQJ;
 				ENABLE_PREVIEWS = YES;
@@ -309,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovigin.GiftText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -329,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GiftText/GiftText.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ATYMLFZUQJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -347,7 +354,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovigin.GiftText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -392,6 +399,14 @@
 				minimumVersion = 5.35.1;
 			};
 		};
+		86E30F282E5C6A78006BD4B7 /* XCRemoteSwiftPackageReference "appmetrica-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/appmetrica/appmetrica-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -404,6 +419,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 86CF5F362E5B533900063238 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
 			productName = RevenueCatUI;
+		};
+		86E30F292E5C6A78006BD4B7 /* AppMetricaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86E30F282E5C6A78006BD4B7 /* XCRemoteSwiftPackageReference "appmetrica-sdk-ios" */;
+			productName = AppMetricaCore;
+		};
+		86E30F2B2E5C6A78006BD4B7 /* AppMetricaCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86E30F282E5C6A78006BD4B7 /* XCRemoteSwiftPackageReference "appmetrica-sdk-ios" */;
+			productName = AppMetricaCrashes;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

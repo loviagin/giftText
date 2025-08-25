@@ -197,6 +197,7 @@ class MainViewModel: ObservableObject {
 extension MainViewModel {
     static var mock: MainViewModel {
         let viewModel = MainViewModel()
+        viewModel.selectedTab = .account
         return viewModel
     }
 }
