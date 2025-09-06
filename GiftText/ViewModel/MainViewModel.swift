@@ -33,20 +33,21 @@ class MainViewModel: ObservableObject {
     }
     
     func checkSubscription() async -> Bool {
-        do {
-            let customerInfo = try await Purchases.shared.customerInfo()
-            if customerInfo.entitlements["Unlimited Generation"]?.isActive == true {
-              // user has access to "Unlimited Generation"
-                return true
-            } else {
-                return false
-            }
-        } catch {
-            print(error)
-        }
+//        do {
+//            let customerInfo = try await Purchases.shared.customerInfo()
+//            if customerInfo.entitlements["Unlimited Generation"]?.isActive == true {
+//              // user has access to "Unlimited Generation"
+//                return true
+//            } else {
+//                return false
+//            }
+//        } catch {
+//            print(error)
+//        }
         
         print(subscribed)
-        return false
+//        return false
+        return true
     }
     
     func checkDonationAllowance() async -> Bool {
