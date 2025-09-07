@@ -40,7 +40,7 @@ struct ChatsView: View {
                                     .font(.headline)
                                 
                                 if let message = chat.lastMessage {
-                                    Text(message)
+                                    Text(NSLocalizedString(message, comment: "Chats View"))
                                         .lineLimit(1)
                                 }
                             }
@@ -140,7 +140,7 @@ struct ChatView: View {
                 }
             }
             
-            AppButton(text: "New Gift", systemImage: "plus.circle", backgroundColor: Color.pink.opacity(0.6)) {
+            AppButton(text: NSLocalizedString("New Gift", comment: "Chat View"), systemImage: "plus.circle", backgroundColor: Color.pink.opacity(0.6)) {
                 viewModel.newGift = Gift(name: chat.title, chat: chat)
                 viewModel.selectedTab = .home
             }

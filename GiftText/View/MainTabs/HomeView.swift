@@ -361,7 +361,7 @@ struct HomeView: View {
                         .padding()
                     
                     HStack {
-                        AppButton(text: "Download", systemImage: "arrow.down.circle", onClickText: "Saved", backgroundColor: Color.gray.opacity(0.7)) {
+                        AppButton(text: NSLocalizedString("Download", comment: "Home View"), systemImage: "arrow.down.circle", onClickText: NSLocalizedString("Saved", comment: "Home View"), backgroundColor: Color.gray.opacity(0.7)) {
                             ContentHelper.saveToPhotos(image) { result in
                                 print(result)
                             }
@@ -373,7 +373,7 @@ struct HomeView: View {
                                 message: Text(giftText ?? "Your gift:"),
                                 preview: SharePreview("Your Gift", image: Image(uiImage: image))
                             ) {
-                                ButtonLabel(systemImage: "square.and.arrow.up", text: "Share Image",  backgroundColor: Color.pink.opacity(0.7))
+                                ButtonLabel(systemImage: "square.and.arrow.up", text: NSLocalizedString("Share Image", comment: "Home View"),  backgroundColor: Color.pink.opacity(0.7))
                             }
                         }
                     }
@@ -400,12 +400,12 @@ struct HomeView: View {
                 .padding(.vertical)
                 
                 HStack {
-                    AppButton(text: "Copy Gift", systemImage: "document.on.document", onClickText: "Copied", backgroundColor: Color.gray.opacity(0.7)) {
+                    AppButton(text: NSLocalizedString("Copy Gift", comment: "Home View"), systemImage: "document.on.document", onClickText: NSLocalizedString("Copied", comment: "Home View"), backgroundColor: Color.gray.opacity(0.7)) {
                         UIPasteboard.general.string = giftText
                     }
                     
                     ShareLink(item: giftText, subject: Text("Share your gift"), message: Text("Congratulations!")) {
-                        ButtonLabel(systemImage: "square.and.arrow.up", text: "Share Gift",  backgroundColor: Color.pink.opacity(0.7))
+                        ButtonLabel(systemImage: "square.and.arrow.up", text: NSLocalizedString("Share Gift", comment: "Home View"),  backgroundColor: Color.pink.opacity(0.7))
                     }
                 }
                 .padding(.horizontal, 15)
@@ -415,17 +415,17 @@ struct HomeView: View {
                 .padding(15)
             
             HStack {
-                AppButton(text: "Regenerate", systemImage: "arrow.clockwise", backgroundColor: Color.pink.opacity(0.6)) {
+                AppButton(text: NSLocalizedString("Regenerate", comment: "Home View"), systemImage: "arrow.clockwise", backgroundColor: Color.pink.opacity(0.6)) {
                     regenerateText()
                 }
                 
-                AppButton(text: "New Gift", systemImage: "plus.circle", backgroundColor: Color.pink.opacity(0.9)) {
+                AppButton(text: NSLocalizedString("New Gift", comment: "Home View"), systemImage: "plus.circle", backgroundColor: Color.pink.opacity(0.9)) {
                     clear()
                 }
             }
             .padding(.horizontal, 15)
             
-            AppButton(text: "Generate Image Gift", systemImage: "photo.artframe.circle", backgroundColor: Color.blue.opacity(0.9)) {
+            AppButton(text: NSLocalizedString("Generate Image Gift", comment: "Home View"), systemImage: "photo.artframe.circle", backgroundColor: Color.blue.opacity(0.9)) {
                 generateImage()
             }
             .padding(.horizontal, 15)
@@ -468,7 +468,7 @@ struct HomeView: View {
                 chatsFieldView
             }
             
-            AppButton(text: "Generate Gift") {
+            AppButton(text: NSLocalizedString("Generate Gift", comment: "Home View")) {
                 if viewModel.user?.name == nil {
                     showNameAlert = true
                 } else if viewModel.checkLimitsForText() {
@@ -660,10 +660,16 @@ struct HomeView: View {
     //MARK: - Header
     var headerView: some View {
         Group {
-            HStack {
-                Text(getTitle())
+            HStack(spacing: 0) {
+                Text(NSLocalizedString("Hello", comment: "HomeView"))
                     .font(.title)
                     .bold()
+                
+                if let name = viewModel.user?.name {
+                    Text(", \(name)")
+                        .font(.title)
+                        .bold()
+                }
                 
                 Spacer()
                 

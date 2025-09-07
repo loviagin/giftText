@@ -1,0 +1,1100 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "comment" : "Home View",
+      "shouldTranslate" : false
+    },
+    "\n\nBy using GiftText, you agree to the following terms:\n\nSubscriptions\n- GiftText offers optional Pro subscriptions.\n- Payment is charged to your Apple ID account through RevenueCat.\n- Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.\n- You can manage or cancel your subscription in your Apple ID account settings.\n\nUse of the App\n- GiftText is for personal, non-commercial use only.\n- You may not use the app for illegal or harmful purposes.\n- Generated content is the responsibility of the user.\n\nThird-Party Services\n- GiftText uses Google Gemini and Imagen to generate text and images.\n- GiftText uses RevenueCat to process and manage subscriptions.\n\nDisclaimer\n- We do not guarantee the accuracy, reliability, or appropriateness of generated content.\n- Service availability may vary and can be changed without notice.\n\nContact Us\nIf you have questions about these Terms of Use, please contact us via the company website form or email: gifttext@lovigin.com\n\nEffective Date: August 2025" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al utilizar GiftText, usted acepta los siguientes términos:\n\nSuscripciones\n- GiftText ofrece suscripciones Profesionales opcionales.\n- El pago se carga a su cuenta de ID de Apple a través de RevenueCat.\n- Las suscripciones se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período actual.\n- Puede administrar o cancelar su suscripción en la configuración de su cuenta de ID de Apple.\n\nUso de la Aplicación\n- GiftText es solo para uso personal, no comercial.\n- No puede utilizar la aplicación con fines ilegales o dañinos.\n- El contenido generado es responsabilidad del usuario.\n\nServicios de Terceros\n- GiftText usa Google Gemini e Imagen para generar texto e imágenes.\n- GiftText usa RevenueCat para procesar y administrar suscripciones.\n\nDescargo de Responsabilidad\n- No garantizamos la exactitud, fiabilidad o idoneidad del contenido generado.\n- La disponibilidad del servicio puede variar y modificarse sin previo aviso.\n\nContacte con Nosotros\nSi tiene preguntas sobre estos Términos de uso, comuníquese con nosotros a través del formulario del sitio web de la compañía o por correo electrónico: gifttext@lovigin.com\n\nFecha de vigencia: agosto de 2025"
+          }
+        }
+      }
+    },
+    "\n\nGiftText respects your privacy and is committed to protecting your personal data.\n\nInformation We Collect\n- Name: collected when you create a greeting. Used only for personalization.\n- Generated gifts: text and images you create are stored in your in-app chat history.\n- Purchase information: collected through RevenueCat to manage subscriptions.\n\nThird-Party Services\n- Google Gemini and Imagen: used to generate text and image greetings.\n- RevenueCat: used for handling in-app subscriptions and purchases.\n\nData Usage\n- We do not sell or share your personal information with third parties for marketing.\n- Data is used only to provide app functionality (greeting generation, subscription access).\n\nData Storage\n- Your generated greetings are stored locally in the app chat history.\n- Subscription records are processed securely through RevenueCat.\n\nContact Us\nIf you have questions about this Privacy Policy, please contact us via the company website form or email: gifttext@lovigin.com\n\nEffective Date: August 2025" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GiftText respeta su privacidad y se compromete a proteger sus datos personales.\n\nInformación Que Recopilamos\n- Nombre: se recopila cuando creas un saludo. Se usa solo para personalización.\n- Regalos generados: el texto y las imágenes que crees se almacenan en tu historial de chat en la aplicación.\n- Información de compra: recopilada a través de RevenueCat para gestionar suscripciones.\n\nServicios de Terceros\n- Google Gemini e Imagen: se usa para generar saludos de texto e imágenes.\n- RevenueCat: se utiliza para gestionar suscripciones y compras integradas en la aplicación.\n\nUso de Datos\n- No vendemos ni compartimos su información personal con terceros para fines de marketing.\n- Los datos se utilizan solo para proporcionar la funcionalidad de la aplicación(generación de saludos, acceso a suscripciones).\n\nAlmacenamiento de Datos\n- Sus saludos generados se almacenan localmente en el historial de chat de la aplicación.\n- Los registros de suscripción se procesan de forma segura a través de RevenueCat.\n\nContacte con Nosotros\nSi tiene preguntas sobre esta Política de privacidad, comuníquese con nosotros a través del formulario del sitio web de la compañía o por correo electrónico: gifttext@lovigin.com\n\nFecha de vigencia: agosto de 2025"
+          }
+        }
+      }
+    },
+    " Do it as humanly as possible." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Hazlo lo más humanameste posible."
+          }
+        }
+      }
+    },
+    " Don't make it too big." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " No lo hagas demasiado grande."
+          }
+        }
+      }
+    },
+    " Here are the latest congratulations:" : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Aquí están las últimas felicitaciones:"
+          }
+        }
+      }
+    },
+    " Make it about the same length as in the  context." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Hágalo aproximadamente del mismo largo que en los saludos que le gustaron."
+          }
+        }
+      }
+    },
+    " Make it about the same length as in the liked greetings." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Hágalo aproximadamente del mismo largo que en los saludos que le gustaron."
+          }
+        }
+      }
+    },
+    " Maximum of 7 sentences." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Máximo de 7 sestescias."
+          }
+        }
+      }
+    },
+    " That's all I have. Based on this, make a greeting card without additional questions." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Eso es todo lo que tesgo. es base a esto, haga una tarjeta de felicitación sin preguntas adicionales."
+          }
+        }
+      }
+    },
+    " Without any introductory words, the text of congratulations immediately follows." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Sin palabras introductorias, el texto de felicitaciones sigue inmediatameste."
+          }
+        }
+      }
+    },
+    ", %@" : {
+      "shouldTranslate" : false
+    },
+    "🌠 Gift Image" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌠 Imagen de Regalo"
+          }
+        }
+      }
+    },
+    "A reason for congratulations" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un motivo de felicitación"
+          }
+        }
+      }
+    },
+    "About App" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de la Aplicación"
+          }
+        }
+      }
+    },
+    "Account" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuesta"
+          }
+        }
+      }
+    },
+    "An error occurred while processing your request. Please try again later." : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se produjo un error al procesar su solicitud. Por favor, inténtelo de nuevo más tarde."
+          }
+        }
+      }
+    },
+    "Anniversary" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aniversario"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete all of your chats?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que quieres eliminar todos tus chats?"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete all of your Data?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Está seguro de que desea eliminar todos sus datos?"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete this Chat?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que quieres eliminar este Chat?"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete your Account?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que deseas eliminar tu Cuesta?"
+          }
+        }
+      }
+    },
+    "Baby's birth" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nacimiesto del bebé"
+          }
+        }
+      }
+    },
+    "Birthday" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumpleaños"
+          }
+        }
+      }
+    },
+    "By Context" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por Contexto"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Chat: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat: %@"
+          }
+        }
+      }
+    },
+    "Chats" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chats"
+          }
+        }
+      }
+    },
+    "Christmas" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navidad"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        }
+      }
+    },
+    "Congratulations!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Felicitaciones!"
+          }
+        }
+      }
+    },
+    "Contact us" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacte con nosotros"
+          }
+        }
+      }
+    },
+    "Context will not be applied" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se aplicará el contexto"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiado"
+          }
+        }
+      }
+    },
+    "Copy Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de Regalo"
+          }
+        }
+      }
+    },
+    "Copy text" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar texto"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suprimir"
+          }
+        }
+      }
+    },
+    "Delete All Chats" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar Todos Los Chats"
+          }
+        }
+      }
+    },
+    "Delete All Data" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar Todos Los Datos"
+          }
+        }
+      }
+    },
+    "Delete chat" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar chat"
+          }
+        }
+      }
+    },
+    "Delete My Account" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar Mi Cuesta"
+          }
+        }
+      }
+    },
+    "Developer: LOVIGIN LTD" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desarrollador: LOVIGIN LTD"
+          }
+        }
+      }
+    },
+    "Do you want to specify your name?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quieres especificar tu nombre?"
+          }
+        }
+      }
+    },
+    "Donate" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donar"
+          }
+        }
+      }
+    },
+    "Download" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargar"
+          }
+        }
+      }
+    },
+    "Edit Profile" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar Perfil"
+          }
+        }
+      }
+    },
+    "Email: gifttext@lovigin.com" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correo electrónico: gifttext@lovigin.com"
+          }
+        }
+      }
+    },
+    "Enter the gender" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese el género"
+          }
+        }
+      }
+    },
+    "Enter your name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese su nombre"
+          }
+        }
+      }
+    },
+    "Female" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Femenino"
+          }
+        }
+      }
+    },
+    "For name" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por nombre"
+          }
+        }
+      }
+    },
+    "Generate Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generar Regalo"
+          }
+        }
+      }
+    },
+    "Generate Image Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generar Regalo de Imagen"
+          }
+        }
+      }
+    },
+    "Generating gift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generando regalo"
+          }
+        }
+      }
+    },
+    "Gift creation request" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solicitud de creación de regalos"
+          }
+        }
+      }
+    },
+    "Gift Style" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estilo de Regalo"
+          }
+        }
+      }
+    },
+    "Hello" : {
+      "comment" : "HomeView",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola"
+          }
+        }
+      }
+    },
+    "Hello, %@" : {
+      "comment" : "HomeView",
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola, %@"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
+        }
+      }
+    },
+    "In connection with the" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En relación con el"
+          }
+        }
+      }
+    },
+    "It's required" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es obligatorio"
+          }
+        }
+      }
+    },
+    "Let's create some gifts!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Vamos a crear algunos regalos!"
+          }
+        }
+      }
+    },
+    "Male" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masculino"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre"
+          }
+        }
+      }
+    },
+    "Never ask" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nunca preguntes"
+          }
+        }
+      }
+    },
+    "New Gift" : {
+      "comment" : "Chat View\nHome View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo Regalo"
+          }
+        }
+      }
+    },
+    "New Year" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Año Nuevo"
+          }
+        }
+      }
+    },
+    "No chats yet" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay chats"
+          }
+        }
+      }
+    },
+    "Official" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oficial"
+          }
+        }
+      }
+    },
+    "Official website" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitio web oficial"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otros"
+          }
+        }
+      }
+    },
+    "Policies" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Políticas"
+          }
+        }
+      }
+    },
+    "Privacy Policy" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Política de Privacidad"
+          }
+        }
+      }
+    },
+    "Privacy settings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración de privacidad"
+          }
+        }
+      }
+    },
+    "Privacy Settings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración de Privacidad"
+          }
+        }
+      }
+    },
+    "PRO" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PRO"
+          }
+        }
+      }
+    },
+    "Regenerate" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regenerar"
+          }
+        }
+      }
+    },
+    "Romantic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romántico"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
+          }
+        }
+      }
+    },
+    "Saved" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardado"
+          }
+        }
+      }
+    },
+    "Select chat" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccione chat"
+          }
+        }
+      }
+    },
+    "Select chat for context" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccione chat para contexto"
+          }
+        }
+      }
+    },
+    "Select message style" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar estilo de mensaje"
+          }
+        }
+      }
+    },
+    "Selected Gender:" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Género Seleccionado:"
+          }
+        }
+      }
+    },
+    "Sensitive Data" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datos Sensibles"
+          }
+        }
+      }
+    },
+    "Share Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir Regalo"
+          }
+        }
+      }
+    },
+    "Share Image" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir Imagen"
+          }
+        }
+      }
+    },
+    "Share your gift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comparte tu regalo"
+          }
+        }
+      }
+    },
+    "Skip for now" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saltar por ahora"
+          }
+        }
+      }
+    },
+    "Smile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonríe"
+          }
+        }
+      }
+    },
+    "Terms of Use" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Términos de Uso"
+          }
+        }
+      }
+    },
+    "Touching" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocar"
+          }
+        }
+      }
+    },
+    "Version: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión: %@"
+          }
+        }
+      }
+    },
+    "We are generating your gift..." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estamos generando tu regalo..."
+          }
+        }
+      }
+    },
+    "Wedding" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boda"
+          }
+        }
+      }
+    },
+    "When you select a chat, the recipient's name will be substituted automatically" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando selecciones un chat, el nombre del destinatario se sustituirá automáticamente"
+          }
+        }
+      }
+    },
+    "Who are we going to congratulate?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿A quién vamos a felicitar?"
+          }
+        }
+      }
+    },
+    "You can choose gender (optional)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes elegir el género (opcional)"
+          }
+        }
+      }
+    },
+    "You can write context (e.g. last congratulations from your friend)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes escribir contexto (por ejemplo, las últimas felicitaciones de tu amigo)"
+          }
+        }
+      }
+    },
+    "You have reached the limit of images per day" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has alcanzado el límite de imágenes por día"
+          }
+        }
+      }
+    },
+    "You have reached the limit of text gifts" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has alcanzado el límite de regalos de texto"
+          }
+        }
+      }
+    },
+    "You have reached the limit of text regeneration per day" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha alcanzado el límite de regeneración de texto por día"
+          }
+        }
+      }
+    },
+    "You're welcome!" : {
+      "comment" : "HomeView",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡De nada!"
+          }
+        }
+      }
+    },
+    "Your Gift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu Regalo"
+          }
+        }
+      }
+    },
+    "Your gift is ready!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Tu regalo está listo!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
