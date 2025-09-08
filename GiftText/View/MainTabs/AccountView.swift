@@ -52,7 +52,7 @@ struct AccountView: View {
                     NavigationLink {
                         PrivacyView()
                     } label: {
-                        Label("Privacy settings", systemImage: "gear")
+                        Label("Settings", systemImage: "gear")
                     }
                     
                     NavigationLink {

@@ -20,6 +20,18 @@ struct PrivacyView: View {
     var body: some View {
         Form {
             Section {
+                Button("Change Language") {
+                    if let url = URL(string: UIApplication.openSettingsURLString) {
+                        if UIApplication.shared.canOpenURL(url) {
+                            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        }
+                    }
+                }
+            } header: {
+                Text("Language")
+            }
+            
+            Section {
                 Button("Delete All Chats") {
                     showChatsAlert = true
                 }
@@ -34,7 +46,7 @@ struct PrivacyView: View {
                 Text("Sensitive Data")
             }
         }
-        .navigationTitle("Privacy Settings")
+        .navigationTitle("Settings")
         .toolbar(.hidden, for: .tabBar)
         .alert("Are you sure you want to delete all of your chats?", isPresented: $showChatsAlert) {
             Button("Delete", role: .destructive) {

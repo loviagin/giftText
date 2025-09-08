@@ -15,7 +15,7 @@ struct ChatsSelectView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Select chat")
+            Text("Choose a chat")
                 .font(.title)
                 .bold()
                 .padding(.horizontal, 20)
