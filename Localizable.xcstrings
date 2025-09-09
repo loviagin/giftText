@@ -1106,7 +1106,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Новый подарок"
+            "value" : "Новый"
           }
         }
       }
@@ -1434,7 +1434,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Поделиться подарком"
+            "value" : "Поделиться"
           }
         }
       }
@@ -1451,7 +1451,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Поделиться картинкой"
+            "value" : "Поделиться"
           }
         }
       }
