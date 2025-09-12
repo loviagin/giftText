@@ -746,6 +746,23 @@
         }
       }
     },
+    "Easter" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semana Santa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пасха"
+          }
+        }
+      }
+    },
     "Edit Profile" : {
       "localizations" : {
         "es" : {
@@ -806,6 +823,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Введите Ваше имя"
+          }
+        }
+      }
+    },
+    "Father's Day" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día del Padre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День отца"
           }
         }
       }
@@ -924,6 +958,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Стиль подарка "
+          }
+        }
+      }
+    },
+    "Graduation" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graduación"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выпускной"
           }
         }
       }
@@ -1058,6 +1109,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мужской"
+          }
+        }
+      }
+    },
+    "Mother's Day" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día de la Madre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День матери"
           }
         }
       }
@@ -1521,6 +1589,23 @@
         }
       }
     },
+    "Thanksgiving" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acción de Gracias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Благодарение"
+          }
+        }
+      }
+    },
     "Touching" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1534,6 +1619,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Трогательный"
+          }
+        }
+      }
+    },
+    "Valentine's Day" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día de San Valentín"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "день св Валентина"
           }
         }
       }

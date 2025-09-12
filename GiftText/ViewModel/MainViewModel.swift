@@ -21,7 +21,13 @@ class MainViewModel: ObservableObject {
         NSLocalizedString("Christmas", comment: "Type Gift"),
         NSLocalizedString("New Year", comment: "Type Gift"),
         NSLocalizedString("Baby's birth", comment: "Type Gift"),
-        NSLocalizedString("Anniversary", comment: "Type Gift")
+        NSLocalizedString("Anniversary", comment: "Type Gift"),
+        NSLocalizedString("Graduation", comment: "Type Gift"),
+        NSLocalizedString("Valentine's Day", comment: "Type Gift"),
+        NSLocalizedString("Mother's Day", comment: "Type Gift"),
+        NSLocalizedString("Father's Day", comment: "Type Gift"),
+        NSLocalizedString("Easter", comment: "Type Gift"),
+        NSLocalizedString("Thanksgiving", comment: "Type Gift"),
     ]
     
     init() {
