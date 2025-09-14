@@ -1,0 +1,1890 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "comment" : "Home View",
+      "shouldTranslate" : false
+    },
+    "\n\nBy using GiftText, you agree to the following terms:\n\nSubscriptions\n- GiftText offers optional Pro subscriptions.\n- Payment is charged to your Apple ID account through RevenueCat.\n- Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.\n- You can manage or cancel your subscription in your Apple ID account settings.\n\nUse of the App\n- GiftText is for personal, non-commercial use only.\n- You may not use the app for illegal or harmful purposes.\n- Generated content is the responsibility of the user.\n\nThird-Party Services\n- GiftText uses Google Gemini and Imagen to generate text and images.\n- GiftText uses RevenueCat to process and manage subscriptions.\n\nDisclaimer\n- We do not guarantee the accuracy, reliability, or appropriateness of generated content.\n- Service availability may vary and can be changed without notice.\n\nContact Us\nIf you have questions about these Terms of Use, please contact us via the company website form or email: gifttext@lovigin.com\n\nEffective Date: August 2025" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al utilizar GiftText, usted acepta los siguientes términos:\n\nSuscripciones\n- GiftText ofrece suscripciones Profesionales opcionales.\n- El pago se carga a su cuenta de ID de Apple a través de RevenueCat.\n- Las suscripciones se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período actual.\n- Puede administrar o cancelar su suscripción en la configuración de su cuenta de ID de Apple.\n\nUso de la Aplicación\n- GiftText es solo para uso personal, no comercial.\n- No puede utilizar la aplicación con fines ilegales o dañinos.\n- El contenido generado es responsabilidad del usuario.\n\nServicios de Terceros\n- GiftText usa Google Gemini e Imagen para generar texto e imágenes.\n- GiftText usa RevenueCat para procesar y administrar suscripciones.\n\nDescargo de Responsabilidad\n- No garantizamos la exactitud, fiabilidad o idoneidad del contenido generado.\n- La disponibilidad del servicio puede variar y modificarse sin previo aviso.\n\nContacte con Nosotros\nSi tiene preguntas sobre estos Términos de uso, comuníquese con nosotros a través del formulario del sitio web de la compañía o por correo electrónico: gifttext@lovigin.com\n\nFecha de vigencia: agosto de 2025"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Используя Giftext, вы соглашаетесь со следующими условиями:\n\nПодписки\n- Giftext предлагает дополнительные подписки Pro.\n- Оплата производится с вашего аккаунта Apple ID через RevenueCat.\n- Подписки автоматически продлеваются, если они не отменены по крайней мере за 24 часа до окончания текущего периода.\n- Вы можете изменить или отменить подписку в настройках своей учетной записи Apple ID.\n\nИспользование приложения\n- Giftext предназначен только для личного некоммерческого использования.\n- Вы не имеете права использовать приложение в незаконных или вредоносных целях.\n- Пользователь несет ответственность за созданный контент.\n\nСторонние сервисы\n- Giftext использует Google Gemini и Imagen для создания текста и изображений.\n- Giftext использует RevenueCat для обработки подписок и управления ими.\n\nОговорка\n- Мы не гарантируем точность, надежность или уместность создаваемого контента.\n- Доступность услуг может варьироваться и может быть изменена без предварительного уведомления.\n\nсвязаться с нами\nЕсли у вас есть вопросы по поводу настоящих Условий использования, пожалуйста, свяжитесь с нами через форму на веб-сайте компании или по электронной почте: gifttext@lovigin.com\n\nДата вступления в силу: август 2025 г."
+          }
+        }
+      }
+    },
+    "\n\nGiftText respects your privacy and is committed to protecting your personal data.\n\nInformation We Collect\n- Name: collected when you create a greeting. Used only for personalization.\n- Generated gifts: text and images you create are stored in your in-app chat history.\n- Purchase information: collected through RevenueCat to manage subscriptions.\n\nThird-Party Services\n- Google Gemini and Imagen: used to generate text and image greetings.\n- RevenueCat: used for handling in-app subscriptions and purchases.\n\nData Usage\n- We do not sell or share your personal information with third parties for marketing.\n- Data is used only to provide app functionality (greeting generation, subscription access).\n\nData Storage\n- Your generated greetings are stored locally in the app chat history.\n- Subscription records are processed securely through RevenueCat.\n\nContact Us\nIf you have questions about this Privacy Policy, please contact us via the company website form or email: gifttext@lovigin.com\n\nEffective Date: August 2025" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GiftText respeta su privacidad y se compromete a proteger sus datos personales.\n\nInformación Que Recopilamos\n- Nombre: se recopila cuando creas un saludo. Se usa solo para personalización.\n- Regalos generados: el texto y las imágenes que crees se almacenan en tu historial de chat en la aplicación.\n- Información de compra: recopilada a través de RevenueCat para gestionar suscripciones.\n\nServicios de Terceros\n- Google Gemini e Imagen: se usa para generar saludos de texto e imágenes.\n- RevenueCat: se utiliza para gestionar suscripciones y compras integradas en la aplicación.\n\nUso de Datos\n- No vendemos ni compartimos su información personal con terceros para fines de marketing.\n- Los datos se utilizan solo para proporcionar la funcionalidad de la aplicación(generación de saludos, acceso a suscripciones).\n\nAlmacenamiento de Datos\n- Sus saludos generados se almacenan localmente en el historial de chat de la aplicación.\n- Los registros de suscripción se procesan de forma segura a través de RevenueCat.\n\nContacte con Nosotros\nSi tiene preguntas sobre esta Política de privacidad, comuníquese con nosotros a través del formulario del sitio web de la compañía o por correo electrónico: gifttext@lovigin.com\n\nFecha de vigencia: agosto de 2025"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giftext уважает вашу конфиденциальность и стремится защищать ваши персональные данные.\n\nИнформация, которую мы собираем\n- Имя: собирается при создании вами приветствия. Используется только для персонализации.\n- Созданные подарки: текст и изображения, которые вы создаете, сохраняются в истории вашего чата в приложении.\n- Информация о покупках: собирается с помощью RevenueCat для управления подписками.\n\nСторонние сервисы\n- Google Gemini и Imagen: используются для создания текстовых и графических поздравлений.\n- RevenueCat: используется для обработки подписок и покупок в приложении.\n\nИспользование данных\n- Мы не продаем и не передаем вашу личную информацию третьим лицам в маркетинговых целях.\n- Данные используются только для обеспечения функциональности приложения (генерация приветствий, доступ по подписке).\n\nХранение данных\n- Сгенерированные вами приветствия хранятся локально в истории чата приложения.\n- Записи о подписке надежно обрабатываются с помощью RevenueCat.\n\nсвязаться с нами\nЕсли у вас есть вопросы по поводу данной Политики конфиденциальности, пожалуйста, свяжитесь с нами через форму на веб-сайте компании или по электронной почте: gifttext@lovigin.com\n\nДата вступления в силу: август 2025"
+          }
+        }
+      }
+    },
+    " Do it as humanly as possible." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Hazlo lo más humanameste posible."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Сделайте это как можно более по-человечески."
+          }
+        }
+      }
+    },
+    " Don't make it too big." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " No lo hagas demasiado grande."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Не делайте его слишком большим."
+          }
+        }
+      }
+    },
+    " Here are the latest congratulations:" : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Aquí están las últimas felicitaciones:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Вот последние поздравления:"
+          }
+        }
+      }
+    },
+    " Make it about the same length as in the  context." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Hágalo aproximadamente del mismo largo que en los saludos que le gustaron."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Сделайте его примерно такой же длины, как и в контексте."
+          }
+        }
+      }
+    },
+    " Make it about the same length as in the liked greetings." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Hágalo aproximadamente del mismo largo que en los saludos que le gustaron."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Сделайте его примерно такой же длины, как в понравившихся поздравлениях."
+          }
+        }
+      }
+    },
+    " Maximum of 7 sentences." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Máximo de 7 sestescias."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Максимум 7 предложений."
+          }
+        }
+      }
+    },
+    " That's all I have. Based on this, make a greeting card without additional questions." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Eso es todo lo que tesgo. es base a esto, haga una tarjeta de felicitación sin preguntas adicionales."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Это все, что у меня есть. Исходя из этого, сделайте поздравительную открытку без дополнительных вопросов."
+          }
+        }
+      }
+    },
+    " Without any introductory words, the text of congratulations immediately follows." : {
+      "comment" : "Generator",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Sin palabras introductorias, el texto de felicitaciones sigue inmediatameste."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Без каких-либо вступительных слов сразу же следует текст поздравления."
+          }
+        }
+      }
+    },
+    ", %@" : {
+      "shouldTranslate" : false
+    },
+    "🌠 Gift Image" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌠 Imagen de Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌠 Подарок - картинка"
+          }
+        }
+      }
+    },
+    "A reason for congratulations" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un motivo de felicitación"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тип поздравления"
+          }
+        }
+      }
+    },
+    "About App" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de la Aplicación"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О приложении"
+          }
+        }
+      }
+    },
+    "Account" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuesta"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунт"
+          }
+        }
+      }
+    },
+    "An error occurred while processing your request. Please try again later." : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se produjo un error al procesar su solicitud. Por favor, inténtelo de nuevo más tarde."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При обработке вашего запроса произошла ошибка. Пожалуйста, повторите попытку позже."
+          }
+        }
+      }
+    },
+    "Anniversary" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aniversario"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Годовщина"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete all of your chats?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que quieres eliminar todos tus chats?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы уверены, что хотите удалить все чаты?"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete all of your Data?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Está seguro de que desea eliminar todos sus datos?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы уверены, что хотите удалить все данные, включая чаты и аккаунт?"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete this Chat?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que quieres eliminar este Chat?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы уверены, что хотите удалить этот чат?"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete your Account?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro de que deseas eliminar tu Cuesta?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы уверены, что хотите удалить аккаунт?"
+          }
+        }
+      }
+    },
+    "Baby's birth" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nacimiesto del bebé"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рождение ребенка"
+          }
+        }
+      }
+    },
+    "Birthday" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumpleaños"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День Рождения"
+          }
+        }
+      }
+    },
+    "By Context" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por Contexto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По контексту"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        }
+      }
+    },
+    "Change Language" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar Idioma"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сменить язык"
+          }
+        }
+      }
+    },
+    "Chat: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat: %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чат: %@"
+          }
+        }
+      }
+    },
+    "Chats" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chats"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чаты"
+          }
+        }
+      }
+    },
+    "Choose a chat" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un chat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите чат"
+          }
+        }
+      }
+    },
+    "Christmas" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navidad"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рождество"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        }
+      }
+    },
+    "Congratulations!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Felicitaciones!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поздравляем!"
+          }
+        }
+      }
+    },
+    "Contact us" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacte con nosotros"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Связаться с нами"
+          }
+        }
+      }
+    },
+    "Context will not be applied" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se aplicará el contexto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контекст не будет учитываться"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировано"
+          }
+        }
+      }
+    },
+    "Copy Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировать"
+          }
+        }
+      }
+    },
+    "Copy text" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar texto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировать"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suprimir"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
+        }
+      }
+    },
+    "Delete All Chats" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar Todos Los Chats"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить все чаты"
+          }
+        }
+      }
+    },
+    "Delete All Data" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar Todos Los Datos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить все данные"
+          }
+        }
+      }
+    },
+    "Delete chat" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar chat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить чат"
+          }
+        }
+      }
+    },
+    "Delete My Account" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar Mi Cuesta"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить аккаунт"
+          }
+        }
+      }
+    },
+    "Developer: LOVIGIN LTD" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desarrollador: LOVIGIN LTD"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разработчик: LOVIGIN LTD"
+          }
+        }
+      }
+    },
+    "Do you want to specify your name?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quieres especificar tu nombre?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы хотите указать Ваше имя?"
+          }
+        }
+      }
+    },
+    "Donate" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Страница доната"
+          }
+        }
+      }
+    },
+    "Download" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скачать"
+          }
+        }
+      }
+    },
+    "Easter" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semana Santa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пасха"
+          }
+        }
+      }
+    },
+    "Edit Profile" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar Perfil"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить профиль"
+          }
+        }
+      }
+    },
+    "Email: gifttext@lovigin.com" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correo electrónico: gifttext@lovigin.com"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email: gifttext@lovigin.com"
+          }
+        }
+      }
+    },
+    "Enter the gender" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese el género"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите пол"
+          }
+        }
+      }
+    },
+    "Enter your name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese su nombre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите Ваше имя"
+          }
+        }
+      }
+    },
+    "Father's Day" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día del Padre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День отца"
+          }
+        }
+      }
+    },
+    "Female" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Femenino"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Женский"
+          }
+        }
+      }
+    },
+    "For name" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por nombre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для "
+          }
+        }
+      }
+    },
+    "Generate Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generar Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать подарок"
+          }
+        }
+      }
+    },
+    "Generate Image Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generar Regalo de Imagen"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать картинку-подарок"
+          }
+        }
+      }
+    },
+    "Generating gift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generando regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создание подарка"
+          }
+        }
+      }
+    },
+    "Gift creation request" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solicitud de creación de regalos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запрос создания подарка"
+          }
+        }
+      }
+    },
+    "Gift Style" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estilo de Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стиль подарка "
+          }
+        }
+      }
+    },
+    "Gift Text Subscription" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suscripción a Gift Text"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gift Text подписка"
+          }
+        }
+      }
+    },
+    "Graduation" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Graduación"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выпускной"
+          }
+        }
+      }
+    },
+    "Hello" : {
+      "comment" : "HomeView",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привет"
+          }
+        }
+      }
+    },
+    "Hello, %@" : {
+      "comment" : "HomeView",
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola, %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привет, %@"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главная"
+          }
+        }
+      }
+    },
+    "In connection with the" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En relación con el"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В связи с "
+          }
+        }
+      }
+    },
+    "It's required" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es obligatorio"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это поле обязательно"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idioma"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Язык"
+          }
+        }
+      }
+    },
+    "Let's create some gifts!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Vamos a crear algunos regalos!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Давайте создадим подарки"
+          }
+        }
+      }
+    },
+    "Male" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masculino"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мужской"
+          }
+        }
+      }
+    },
+    "Mother's Day" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día de la Madre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День матери"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя"
+          }
+        }
+      }
+    },
+    "Never ask" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nunca preguntes"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше не спрашивать"
+          }
+        }
+      }
+    },
+    "New Gift" : {
+      "comment" : "Chat View\nHome View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новый"
+          }
+        }
+      }
+    },
+    "New Year" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Año Nuevo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новый год"
+          }
+        }
+      }
+    },
+    "No chats yet" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay chats"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чатов еще нет"
+          }
+        }
+      }
+    },
+    "Official" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oficial"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Официальный"
+          }
+        }
+      }
+    },
+    "Official website" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitio web oficial"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Официальный сайт"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ок"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otros"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Другой"
+          }
+        }
+      }
+    },
+    "Policies" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Políticas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Документы"
+          }
+        }
+      }
+    },
+    "Privacy Policy" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Política de Privacidad"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Политика конфиденциальности"
+          }
+        }
+      }
+    },
+    "PRO" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PRO"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PRO"
+          }
+        }
+      }
+    },
+    "Regenerate" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regenerar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пересоздать"
+          }
+        }
+      }
+    },
+    "Romantic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romántico"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Романтический"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
+        }
+      }
+    },
+    "Saved" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранено"
+          }
+        }
+      }
+    },
+    "Select chat" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar chat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать чат"
+          }
+        }
+      }
+    },
+    "Select chat for context" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccione chat para contexto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите чат для контекста"
+          }
+        }
+      }
+    },
+    "Select message style" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar estilo de mensaje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите стиль подарка"
+          }
+        }
+      }
+    },
+    "Selected Gender:" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Género Seleccionado:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите пол:"
+          }
+        }
+      }
+    },
+    "Sensitive Data" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datos Sensibles"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Личные данные"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        }
+      }
+    },
+    "Share Gift" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
+          }
+        }
+      }
+    },
+    "Share Image" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir Imagen"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
+          }
+        }
+      }
+    },
+    "Share your gift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comparte tu regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться подарком"
+          }
+        }
+      }
+    },
+    "Skip for now" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saltar por ahora"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить сейчас"
+          }
+        }
+      }
+    },
+    "Smile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonríe"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Веселый"
+          }
+        }
+      }
+    },
+    "Terms of Use" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Términos de Uso"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Правила использования"
+          }
+        }
+      }
+    },
+    "Thanksgiving" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acción de Gracias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Благодарение"
+          }
+        }
+      }
+    },
+    "Touching" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Трогательный"
+          }
+        }
+      }
+    },
+    "Valentine's Day" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día de San Valentín"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День св Валентина"
+          }
+        }
+      }
+    },
+    "Version: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión: %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия: %@"
+          }
+        }
+      }
+    },
+    "We are generating your gift..." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estamos generando tu regalo..."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создаем Ваш подарок ..."
+          }
+        }
+      }
+    },
+    "Wedding" : {
+      "comment" : "Type Gift",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boda"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Свадьба"
+          }
+        }
+      }
+    },
+    "When you select a chat, the recipient's name will be substituted automatically" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando selecciones un chat, el nombre del destinatario se sustituirá automáticamente"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда вы выберете чат, имя получателя подставится автоматически"
+          }
+        }
+      }
+    },
+    "Who are we going to congratulate?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿A quién vamos a felicitar?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кого поздравляем?"
+          }
+        }
+      }
+    },
+    "You can choose gender (optional)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes elegir el género (opcional)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можете указать пол"
+          }
+        }
+      }
+    },
+    "You can write context (e.g. last congratulations from your friend)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes escribir contexto (por ejemplo, las últimas felicitaciones de tu amigo)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можете задать контекст (например, ваши последние поздравления)"
+          }
+        }
+      }
+    },
+    "You have a Subscription" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya tienes una suscripción"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У вас уже есть подписка"
+          }
+        }
+      }
+    },
+    "You have reached the limit of images per day" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has alcanzado el límite de imágenes por día"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы достигли лимита создания подарков в день"
+          }
+        }
+      }
+    },
+    "You have reached the limit of text gifts" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has alcanzado el límite de regalos de texto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы достигли лимита создания подарков"
+          }
+        }
+      }
+    },
+    "You have reached the limit of text regeneration per day" : {
+      "comment" : "Home View",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha alcanzado el límite de regeneración de texto por día"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы достигли лимита перегенерации текста в день"
+          }
+        }
+      }
+    },
+    "You're welcome!" : {
+      "comment" : "HomeView",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡De nada!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добро пожаловать"
+          }
+        }
+      }
+    },
+    "Your Gift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu Regalo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш подарок"
+          }
+        }
+      }
+    },
+    "Your gift is ready!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Tu regalo está listo!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш подарок готов!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

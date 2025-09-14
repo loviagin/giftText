@@ -21,7 +21,13 @@ class MainViewModel: ObservableObject {
         NSLocalizedString("Christmas", comment: "Type Gift"),
         NSLocalizedString("New Year", comment: "Type Gift"),
         NSLocalizedString("Baby's birth", comment: "Type Gift"),
-        NSLocalizedString("Anniversary", comment: "Type Gift")
+        NSLocalizedString("Anniversary", comment: "Type Gift"),
+        NSLocalizedString("Graduation", comment: "Type Gift"),
+        NSLocalizedString("Valentine's Day", comment: "Type Gift"),
+        NSLocalizedString("Mother's Day", comment: "Type Gift"),
+        NSLocalizedString("Father's Day", comment: "Type Gift"),
+        NSLocalizedString("Easter", comment: "Type Gift"),
+        NSLocalizedString("Thanksgiving", comment: "Type Gift"),
     ]
     
     init() {
@@ -33,21 +39,21 @@ class MainViewModel: ObservableObject {
     }
     
     func checkSubscription() async -> Bool {
-//        do {
-//            let customerInfo = try await Purchases.shared.customerInfo()
-//            if customerInfo.entitlements["Unlimited Generation"]?.isActive == true {
-//              // user has access to "Unlimited Generation"
-//                return true
-//            } else {
-//                return false
-//            }
-//        } catch {
-//            print(error)
-//        }
+        do {
+            let customerInfo = try await Purchases.shared.customerInfo()
+            if customerInfo.entitlements["Unlimited Generation"]?.isActive == true {
+              // user has access to "Unlimited Generation"
+                return true
+            } else {
+                return false
+            }
+        } catch {
+            print(error)
+        }
         
         print(subscribed)
-//        return false
-        return true
+        return false
+//        return true
     }
     
     func checkDonationAllowance() async -> Bool {
