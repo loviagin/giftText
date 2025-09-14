@@ -962,6 +962,22 @@
         }
       }
     },
+    "Gift Text Subscription" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suscripción a Gift Text"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gift Text подписка"
+          }
+        }
+      }
+    },
     "Graduation" : {
       "comment" : "Type Gift",
       "localizations" : {
@@ -1635,7 +1651,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "день св Валентина"
+            "value" : "День св Валентина"
           }
         }
       }
@@ -1749,6 +1765,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можете задать контекст (например, ваши последние поздравления)"
+          }
+        }
+      }
+    },
+    "You have a Subscription" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya tienes una suscripción"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У вас уже есть подписка"
           }
         }
       }

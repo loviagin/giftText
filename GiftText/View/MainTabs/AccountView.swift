@@ -28,25 +28,25 @@ struct AccountView: View {
                     userInfoView
                 }
                 
-//                Section {
-//                    Button {
-//                        if !viewModel.subscribed {
-//                            withAnimation {
-//                                showSubscription = true
-//                            }
-//                        }
-//                    } label: {
-//                        HStack {
-//                            if viewModel.subscribed {
-//                                Label("You have a Gift Text Subscription", systemImage: "checkmark.circle")
-//                            } else {
-//                                Label("Gift Text Subscription", systemImage: "arrow.up.message")
-//                            }
-//                            Spacer()
-//                            Image(systemName: "storefront")
-//                        }
-//                    }
-//                }
+                Section {
+                    Button {
+                        if !viewModel.subscribed {
+                            withAnimation {
+                                showSubscription = true
+                            }
+                        }
+                    } label: {
+                        HStack {
+                            if viewModel.subscribed {
+                                Label("You have a Subscription", systemImage: "checkmark.circle")
+                            } else {
+                                Label("Gift Text Subscription", systemImage: "arrow.up.message")
+                            }
+                            Spacer()
+                            Image(systemName: "storefront")
+                        }
+                    }
+                }
                 
                 Section {
                     NavigationLink {
